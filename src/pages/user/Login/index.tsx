@@ -123,13 +123,11 @@ const Login: React.FC = () => {
               marginBottom: 24,
             }}
           >
-            <Space split={<Divider type="vertical" />} align={"center"}>
+            <Space split={<Divider type="vertical" />}>
               <ProFormCheckbox noStyle name="autoLogin">
                 自动登录
               </ProFormCheckbox>
-              <Divider type="vertical" />
               <Link to="/user/register">新用户注册</Link>
-
               <a
                 style={{
                   float: 'right',
